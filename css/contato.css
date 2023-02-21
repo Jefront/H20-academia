@@ -1,0 +1,66 @@
+.contato-bg {
+    max-width: 1400px;
+    min-width: 300px;
+    margin: 0px auto;
+    align-items: center;
+    box-sizing: border-box;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #fafbfc;
+}
+
+.grid-contato {
+    display: grid;
+    grid-template-columns: 1fr auto;
+}
+
+.titulo-contato {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 48px;
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.mapa img {
+    border-radius: 5px;
+    width: 560px;
+    height: 520px;
+    margin-left: 20px;
+}
+
+.contato-endereco {
+    font-family: 'Poppins';
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.contato-endereco li {
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+.item-3 {
+    display: flex;
+    gap: 15px;
+}
+
+@media (max-width:800px) {
+    .grid-contato {
+        grid-template-columns: 1fr;
+    }
+    .titulo-contato {
+        font-size: 32px;
+    }
+    .mapa img {
+        margin: 0px auto;
+    }
+    .contato-endereco li {
+        font-size: 1rem;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+}

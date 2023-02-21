@@ -1,0 +1,36 @@
+body,
+h1,
+h2,
+h3,
+h4,
+nav,
+ul,
+li,
+a,
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+ul,
+li,
+nav {
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+p span {
+    color: #8EFE00;
+}
+
+h1 span {
+    color: #8EFE00;
+}
